@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background:url(ai-text-generator.png) no-repeat center center;
+    background-size: cover;
+}
+.container{
+    height: 100% ;
+    width: 100%;
+    background-color: brown;
+    backdrop-filter: blur(20px);
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+.menu a,.login a{
+    text-decoration: none;
+    font-size: 14px;
+    color:aqua ;
+    padding: 0 15px;
+}
+.content{
+    height:90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+}
+.content .pic{
+    height: 1005;
+    width: 505;
+    background-size: contain;
+}
+.forgot-password{
+ color: aliceblue;
+ display: block;
+ margin-top: 5px;
+ color: darkblue;
+ text-decoration: none;
+ font-size: 14px;
+}
+.login-container{
+    padding: 20px;
+    border-radius: 5px;
+    height:14px;
+    width:50px;
+    padding: 5% 12%;
+}
+.login-container form p{
+    color:brown;
+    text-align: center;
+    padding: 5%;
+    font-style: italic;
+}
+h2{
+    text-align: center;
+    color: azure;
+    padding: 40px;
+    font-weight: 100%;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group input{
+    width: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+button{
+    width: 100%;
+    padding:10px;
+    border:none;
+    border-radius:100%;
+    cursor: pointer;
+    font-style: initial;
+    font-size: 1.1rem;
+}
+button[type="submit"]{
+    background-color: aquamarine;
+    color:azure;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.social-links a i{
+    font-size: 22px;
+    color:darkorange;
+    margin-right: 20px;
+    transition: 5s ease;
+    padding: 30px 30px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+.social-links a:hover{
+    transform: scale(1,2);
+}
